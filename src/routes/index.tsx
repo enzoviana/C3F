@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, BadgeCheck, Building2, Calculator, FileText, Scale, Users } from "lucide-react";
-import heroImg from "@/assets/toulon-harbor.jpg";
 import { Testimonials } from "@/components/Testimonials";
 import { FAQ, faqs } from "@/components/FAQ";
 
@@ -70,7 +69,7 @@ function HomePage() {
           <div className="lg:col-span-5 relative animate-fade-up">
             <div className="aspect-[4/5] overflow-hidden rounded-sm">
               <img
-                src={heroImg}
+                src="https://c1.wallpaperflare.com/preview/132/951/707/france-photos-harbour-landscape.jpg"
                 alt="Vue du port de Toulon, ville d'implantation du cabinet C3F Conseils"
                 width={1600}
                 height={2000}
